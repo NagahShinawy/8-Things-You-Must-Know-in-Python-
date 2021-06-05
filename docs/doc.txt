@@ -38,3 +38,6 @@ names = ["John", "James", "Leon", "Smith", "Mickael"]
 rev_names = reversed(names)  # type == > list_reverseiterator  : make a copy not reverse the original one
 
 ###############################################################################################
+6- min vs max
+# using _ with long number for easy visualization of number
+population = [17_500_000, 198_000_000, 10_000_000, 30_000_000, 24_000_000, 128_000_000]
