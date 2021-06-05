@@ -1,0 +1,13 @@
+1- all(iterable)
+iterable: anything you can loop over using foor loop: list, string, tuple, dictionary, ..
+any(iterable)
+
+###############################################################################################
+
+run pytest file
+>> pytest tips_tricks/tests/test_all_any_1.py
+
+RUN specific fuction in the test file
+>> pytest tips_tricks/tests/test_all_any_1.py::test_not_contains_punctuation
+collected 1 item [because you are using just on functino to test]
+###############################################################################################s
