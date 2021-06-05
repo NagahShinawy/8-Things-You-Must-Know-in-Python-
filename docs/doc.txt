@@ -1,6 +1,7 @@
 1- all(iterable)
 iterable: anything you can loop over using foor loop: list, string, tuple, dictionary, ..
-any(iterable)
+###############################################################################################
+2- any(iterable)
 
 ###############################################################################################
 
@@ -10,4 +11,19 @@ run pytest file
 RUN specific fuction in the test file
 >> pytest tips_tricks/tests/test_all_any_1.py::test_not_contains_punctuation
 collected 1 item [because you are using just on functino to test]
-###############################################################################################s
+###############################################################################################
+3- enumerate
+# [ (id, (country, capital)) ]
+# every tuple contains 2 items (id, (country, capital)) so, you must add () to be like _id, (country, capital) to match
+# the values to unpack
+for _id, (country, capital) in enumerate(capitals.items(), start=1):
+    capitals_.add_row([_id, country, capital])
+
+print(capitals_)
+
+
+###############################################################################################
+4- zip
+zip : to loop over multiple iterable like (loop over 3 lists)
+zip stops when reach to the end of reachest iterable
+so you  need something work with missing values, you need ==>  from itertools import zip_longest(check example)
