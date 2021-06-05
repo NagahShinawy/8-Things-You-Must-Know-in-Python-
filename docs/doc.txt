@@ -27,3 +27,14 @@ print(capitals_)
 zip : to loop over multiple iterable like (loop over 3 lists)
 zip stops when reach to the end of reachest iterable
 so you  need something work with missing values, you need ==>  from itertools import zip_longest(check example)
+
+###############################################################################################
+5- reverse()  vs reversed()
+
+countries.reverse()  # reverse in place and reverse the original one so that string and tuple don't contain reverse()
+# because reverse update the original obj and string, tuple are immutables
+
+names = ["John", "James", "Leon", "Smith", "Mickael"]
+rev_names = reversed(names)  # type == > list_reverseiterator  : make a copy not reverse the original one
+
+###############################################################################################
