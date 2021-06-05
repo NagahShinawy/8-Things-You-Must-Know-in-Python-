@@ -26,4 +26,4 @@ def annual_births_average(year=year, births=births):
     return result
 
 
-annual_births_average(year, births)
+print(annual_births_average(year, births))
